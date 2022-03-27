@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Lato';
+  padding: 2rem;
+  width: 100vw;
+  height: 100vh;
+}
+
+.subscribe__card {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 2rem;
+  border-radius: 2rem;
+  box-shadow: 0 2px 40px rgba(0, 0, 0, 15%);
+}
+
+.subscribe__card .svg {
+  flex: 0 0 50%;
+}
+
+.subscribe__card .svg svg {
+  width: 100%;
+  height: 100%;
+}
+
+.subscribe__card .content {
+  flex: 0 0 45%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.2rem;
+}
+
+.subscribe__card .content h2 {
+  margin-bottom: 0;
+}
+
+.subscribe__card .content p {
+  font-size: 0.75rem;
+}
+
+.subscribe__card .content input {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ddd;
+}
+.subscribe__card .content input:focus {
+  outline-color: #f0bf4c;
+}
+
+.subscribe__card .content button {
+  margin-top: 0.3rem;
+  padding: 0.4rem;
+  border-radius: 0.5rem;
+  background: #f0bf4c;
+  border: 1px solid #f0bf4c;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* mobile */
+@media (any-pointer: coarse) {
+  .subscribe__card {
+    flex-direction: column;
+  }
+  .subscribe__card .svg,
+  .subscribe__card .content {
+    flex: 0 0 100%;
+  }
+}
