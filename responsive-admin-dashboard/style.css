@@ -2,7 +2,7 @@
 
 /* ----------------  Root Variables  --------------------- */
 :root {
-  --color-primary: #7380ec;
+  --color-primary: #7380ec !important;
   --color-danger: #ff7782;
   --color-success: #41f1b6;
   --color-warning: #ffbb55;
@@ -143,8 +143,6 @@ b {
   width: 96%;
   margin: 0 auto;
 }
-
-
 
 /*=============================================
 =               Start of aside                =
